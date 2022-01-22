@@ -1,0 +1,46 @@
+.home{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.home > section{
+   
+    background: linear-gradient(to right, #dad299, #b0dab9);
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    width: 1349px;
+}
+.box{
+    position: relative;
+    width: 1290px;
+    height: 350px;
+    margin-left: 30px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5); 
+}
+.box > h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #044460;
+    text-align: center;
+}
+.box > p {
+    margin: auto;
+    inline-size: 1200px;
+    word-break: break-all;
+}
+
+.home_row{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.homeImage{
+    max-height: 10px;
+    display: flex;
+}
