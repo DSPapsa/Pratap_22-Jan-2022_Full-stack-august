@@ -1,0 +1,17 @@
+      
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top:0 ;
+    z-index: 100;
+    font-style: italic; 
+   flex-direction: column;
+   margin-top: 5px;
+}
+.header > h3{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;   
+}
